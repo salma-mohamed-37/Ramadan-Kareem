@@ -1,0 +1,27 @@
+body
+{
+    background-color:navy;
+}
+.fa-solid
+{
+    color:rgb(243, 152, 6);
+    padding: 50px;
+}
+p
+{
+    color:rgb(243, 152, 6);
+    font-size: 700%;
+}
+img
+{
+    animation: 2s movement infinite linear;
+    margin: 5px;
+}
+
+@keyframes movement
+{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(20deg);}
+    50%{transform: rotate(0deg);}
+    75%{transform: rotate(-20deg);}
+}
